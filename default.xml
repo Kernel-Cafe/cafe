@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="local"
+           fetch=".." />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="cafe"
+           fetch="https://github.com/Kernel-Cafe" />
+
+  <default revision="master"
+           remote="cafe"
+           sync-c="true"
+           sync-j="4" />
+  
+  <project path="bin" name="cafe_bin" remote="cafe" />
+</manifest>
