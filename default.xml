@@ -19,5 +19,8 @@
            sync-c="true"
            sync-j="4" />
   
-  <project path="bin" name="cafe_bin" remote="cafe" />
+  <project path="bin" name="cafe_bin" remote="cafe" >
+    <copyfile src="cafe.sh" dest="cafe.sh" />
+  </project>
+  
 </manifest>
