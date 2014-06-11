@@ -22,5 +22,5 @@
   <project path="bin" name="cafe_bin" remote="cafe" >
     <copyfile src="cafe.sh" dest="cafe.sh" />
   </project>
-  <project path="device/template_sample" name="device_template_sample"/>
+  <project path="device/template/sample" name="device_template_sample"/>
 </manifest>
